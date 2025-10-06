@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ad313fe3c3143210e2b9921ed40131ed" extends="task" label="Enrollment" max_length="40" name="x_1131775_traini_0_enrollment" type="collection">
+        <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
+        <element label="Training Schedule" max_length="32" name="training_schedule" reference="x_1131775_traini_0_schedules" type="reference"/>
+    </element>
+</database>

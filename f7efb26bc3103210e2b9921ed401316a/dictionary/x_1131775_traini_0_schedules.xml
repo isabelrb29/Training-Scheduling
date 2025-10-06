@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="784aefabc3d03210e2b9921ed40131a2" label="Schedules" max_length="40" name="x_1131775_traini_0_schedules" type="collection">
+        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" reference_qual="roles=x_1131775_traini_0.training_instructor" reference_qual_condition="roles=x_1131775_traini_0.training_instructor" type="reference"/>
+        <element display="true" label="Course" max_length="32" name="course" reference="x_1131775_traini_0_course" type="reference"/>
+        <element label="Training Date" max_length="40" name="training_date" type="glide_date"/>
+        <element default="0" label="Capacity" max_length="40" name="capacity" type="integer"/>
+        <index name="index">
+            <element name="course"/>
+        </index>
+        <index name="index2">
+            <element name="instructor"/>
+        </index>
+    </element>
+</database>

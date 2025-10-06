@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New Enrollment</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Enrollment</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">9962f07bbd3222104f34afdd794b6aca</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:41:31</sys_created_on>
+        <sys_id>2d6f6b63c3143210e2b9921ed401312f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enrollment</sys_name>
+        <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
+        <sys_update_name>sys_wizard_answer_2d6f6b63c3143210e2b9921ed401312f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:41:31</sys_updated_on>
+        <table/>
+        <target_url>x_1131775_traini_0_enrollment.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</application>
+        <file_path/>
+        <instance_id>7aff68632b931618e83bf9f66e91bfd7</instance_id>
+        <instance_name>dev293866</instance_name>
+        <name>sys_wizard_answer_2d6f6b63c3143210e2b9921ed401312f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>New Enrollment</answer><button_label/><dependent_value/><element/><name>Enrollment</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">9962f07bbd3222104f34afdd794b6aca</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-06 17:41:31</sys_created_on><sys_id>2d6f6b63c3143210e2b9921ed401312f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Enrollment</sys_name><sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package><sys_policy/><sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope><sys_update_name>sys_wizard_answer_2d6f6b63c3143210e2b9921ed401312f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-06 17:41:31</sys_updated_on><table/><target_url>x_1131775_traini_0_enrollment.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-344571116</payload_hash>
+        <record_name>Enrollment</record_name>
+        <reverted_from/>
+        <source>a571836bc3103210e2b9921ed40131fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:41:31</sys_created_on>
+        <sys_id>296f6b63c3143210e2b9921ed4013133</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199ba9d403b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:41:31</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>e96f6b6383143210538cb9a9b4658f32</update_guid>
+        <update_guid_history>e96f6b6383143210538cb9a9b4658f32:-344571116</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:48:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>2d609b70864040868e1162e286607484</sys_id>
+        <sys_metadata>2d6f6b63c3143210e2b9921ed401312f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enrollment</sys_name>
+        <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
+        <sys_parent display_value="Task">9962f07bbd3222104f34afdd794b6aca</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
+        <sys_scope_delete display_value="">66fc8fea6fdc4efbbb788a5d956935a9</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_2d6f6b63c3143210e2b9921ed401312f</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_2d6f6b63c3143210e2b9921ed401312f">296f6b63c3143210e2b9921ed4013133</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:48:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

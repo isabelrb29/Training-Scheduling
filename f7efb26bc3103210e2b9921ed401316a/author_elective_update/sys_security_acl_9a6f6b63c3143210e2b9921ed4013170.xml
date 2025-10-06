@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1131775_traini_0_enrollment</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:41:34</sys_created_on>
+        <sys_id>9a6f6b63c3143210e2b9921ed4013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1131775_traini_0_enrollment</sys_name>
+        <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
+        <sys_update_name>sys_security_acl_9a6f6b63c3143210e2b9921ed4013170</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:41:34</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</application>
+        <file_path/>
+        <instance_id>7aff68632b931618e83bf9f66e91bfd7</instance_id>
+        <instance_name>dev293866</instance_name>
+        <name>sys_security_acl_9a6f6b63c3143210e2b9921ed4013170</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_1131775_traini_0_enrollment</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-06 17:41:34</sys_created_on><sys_id>9a6f6b63c3143210e2b9921ed4013170</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1131775_traini_0_enrollment</sys_name><sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package><sys_policy/><sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope><sys_update_name>sys_security_acl_9a6f6b63c3143210e2b9921ed4013170</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-06 17:41:34</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-469378646</payload_hash>
+        <record_name>x_1131775_traini_0_enrollment</record_name>
+        <reverted_from/>
+        <source>a571836bc3103210e2b9921ed40131fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:41:35</sys_created_on>
+        <sys_id>ee6f6b63c3143210e2b9921ed4013173</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199ba9d4cf50000002</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:41:35</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>e26f6b63131432108f9020b548500973</update_guid>
+        <update_guid_history>e26f6b63131432108f9020b548500973:-469378646</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:47:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>a28c6aeabc1b49db9b49561d17d45cc9</sys_id>
+        <sys_metadata>9a6f6b63c3143210e2b9921ed4013170</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1131775_traini_0_enrollment</sys_name>
+        <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
+        <sys_parent display_value="">296f2b63c3143210e2b9921ed40131bb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
+        <sys_scope_delete display_value="">66fc8fea6fdc4efbbb788a5d956935a9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_9a6f6b63c3143210e2b9921ed4013170</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_9a6f6b63c3143210e2b9921ed4013170">ee6f6b63c3143210e2b9921ed4013173</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:47:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

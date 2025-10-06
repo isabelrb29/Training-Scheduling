@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Enrollment</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Enrollment</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">9962f07bbd3222104f34afdd794b6aca</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 17:49:26</sys_created_on>
+        <sys_id>ad317fe3c3143210e2b9921ed4013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enrollment</sys_name>
+        <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
+        <sys_update_name>sys_wizard_answer_ad317fe3c3143210e2b9921ed4013117</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 17:49:26</sys_updated_on>
+        <table/>
+        <target_url>x_1131775_traini_0_enrollment.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

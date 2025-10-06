@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Performs a validation so that it is not possible to schedule a training schedule on the same date as an existing one.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Date</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   var course = g_form.getValue('course');
+   var date = g_form.getValue('training_date');
+
+   var gaSchedule = new GlideAjax("x_1131775_traini_0.ScheduleValidation");
+   gaSchedule.addParam('sysparm_name','checkDuplicate');
+   gaSchedule.addParam('sysparm_course',course);
+   gaSchedule.addParam('sysparm_date',date);
+   gaSchedule.addParam('sysparm_sys_id',g_form.getUniqueValue());
+   
+   var result = gaSchedule.getXMLWait();
+   var response = result.documentElement.getAttribute('answer');
+
+   if (response === 'true') {
+	alert('Já existe um treinamento deste curso nesta data');
+	//impedir o envio do formulário
+	return false; 
+   }
+
+   return true;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-06 20:23:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac819837c3943210e2b9921ed4013161</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Validate Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
+        <sys_update_name>sys_script_client_ac819837c3943210e2b9921ed4013161</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-06 20:45:16</sys_updated_on>
+        <table>x_1131775_traini_0_schedules</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
