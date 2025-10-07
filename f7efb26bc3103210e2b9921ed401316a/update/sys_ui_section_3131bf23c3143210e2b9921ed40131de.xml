@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-06 18:09:33</sys_created_on>
-            <sys_id>10d5f76bc3143210e2b9921ed401315f</sys_id>
+            <sys_created_on>2025-10-07 02:41:36</sys_created_on>
+            <sys_id>300b2137c35c3210e2b9921ed401319d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1131775_traini_0_enrollment" sys_domain="global" view="Default view">3131bf23c3143210e2b9921ed40131de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-06 18:09:33</sys_updated_on>
+            <sys_updated_on>2025-10-07 02:41:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>training_schedule.course</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-06 18:09:33</sys_created_on>
-            <sys_id>d8d5f76bc3143210e2b9921ed401315f</sys_id>
+            <sys_created_on>2025-10-07 02:41:36</sys_created_on>
+            <sys_id>7c0b2137c35c3210e2b9921ed401319d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1131775_traini_0_enrollment" sys_domain="global" view="Default view">3131bf23c3143210e2b9921ed40131de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-06 18:09:33</sys_updated_on>
+            <sys_updated_on>2025-10-07 02:41:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>opened_by</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-06 18:09:33</sys_created_on>
-            <sys_id>50d5f76bc3143210e2b9921ed4013160</sys_id>
+            <sys_created_on>2025-10-07 02:41:36</sys_created_on>
+            <sys_id>740b2137c35c3210e2b9921ed401319e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1131775_traini_0_enrollment" sys_domain="global" view="Default view">3131bf23c3143210e2b9921ed40131de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-06 18:09:33</sys_updated_on>
+            <sys_updated_on>2025-10-07 02:41:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-06 18:09:33</sys_created_on>
-            <sys_id>d4d5f76bc3143210e2b9921ed4013160</sys_id>
+            <sys_created_on>2025-10-07 02:41:36</sys_created_on>
+            <sys_id>340b2137c35c3210e2b9921ed40131ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1131775_traini_0_enrollment" sys_domain="global" view="Default view">3131bf23c3143210e2b9921ed40131de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-06 18:09:33</sys_updated_on>
+            <sys_updated_on>2025-10-07 02:41:36</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,27 +60,27 @@
             <element>state</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-06 18:09:33</sys_created_on>
-            <sys_id>5cd5f76bc3143210e2b9921ed4013160</sys_id>
+            <sys_created_on>2025-10-07 02:41:36</sys_created_on>
+            <sys_id>3c0b2137c35c3210e2b9921ed40131ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1131775_traini_0_enrollment" sys_domain="global" view="Default view">3131bf23c3143210e2b9921ed40131de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-06 18:09:33</sys_updated_on>
+            <sys_updated_on>2025-10-07 02:41:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>training_schedule.training_date</element>
+            <element>training_date</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-06 18:09:33</sys_created_on>
-            <sys_id>d0d5f76bc3143210e2b9921ed4013161</sys_id>
+            <sys_created_on>2025-10-07 02:41:36</sys_created_on>
+            <sys_id>340b2137c35c3210e2b9921ed40131ac</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1131775_traini_0_enrollment" sys_domain="global" view="Default view">3131bf23c3143210e2b9921ed40131de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-06 18:09:33</sys_updated_on>
+            <sys_updated_on>2025-10-07 02:41:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.end_split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-06 18:09:33</sys_created_on>
-            <sys_id>58d5f76bc3143210e2b9921ed4013161</sys_id>
+            <sys_created_on>2025-10-07 02:41:36</sys_created_on>
+            <sys_id>3c0b2137c35c3210e2b9921ed40131ac</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1131775_traini_0_enrollment" sys_domain="global" view="Default view">3131bf23c3143210e2b9921ed40131de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-06 18:09:33</sys_updated_on>
+            <sys_updated_on>2025-10-07 02:41:36</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>reproval_reason</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-10-06 18:09:33</sys_created_on>
-            <sys_id>dcd5f76bc3143210e2b9921ed4013161</sys_id>
+            <sys_created_on>2025-10-07 02:41:36</sys_created_on>
+            <sys_id>340b2137c35c3210e2b9921ed40131ad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1131775_traini_0_enrollment" sys_domain="global" view="Default view">3131bf23c3143210e2b9921ed40131de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-10-06 18:09:33</sys_updated_on>
+            <sys_updated_on>2025-10-07 02:41:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

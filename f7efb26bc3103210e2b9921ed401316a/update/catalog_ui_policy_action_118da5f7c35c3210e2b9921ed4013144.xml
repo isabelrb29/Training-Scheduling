@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Training Scheduling">102061b7c31c3210e2b9921ed4013116</catalog_item>
+        <catalog_variable>IO:931be137c35c3210e2b9921ed40131dd</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-07 02:52:44</sys_created_on>
+        <sys_id>118da5f7c35c3210e2b9921ed4013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>training_date</sys_name>
+        <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_118da5f7c35c3210e2b9921ed4013144</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-07 02:52:44</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Read Only Fields">df6de1f7c35c3210e2b9921ed40131e6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>training_date</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=118da5f7c35c3210e2b9921ed4013144"/>
+</record_update>
