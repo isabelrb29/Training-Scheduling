@@ -3,16 +3,16 @@
         <sc_cat_item display_value="Training Scheduling">102061b7c31c3210e2b9921ed4013116</sc_cat_item>
         <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-07 02:57:57</sys_created_on>
-        <sys_id>dcce613bc35c3210e2b9921ed40131d0</sys_id>
+        <sys_created_on>2025-10-07 18:28:19</sys_created_on>
+        <sys_id>b8b3c108c36c7210e2b9921ed40131f3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Training Scheduling.Training Students</sys_name>
         <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
-        <sys_update_name>sc_cat_item_user_criteria_mtom_dcce613bc35c3210e2b9921ed40131d0</sys_update_name>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_b8b3c108c36c7210e2b9921ed40131f3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-07 02:57:57</sys_updated_on>
+        <sys_updated_on>2025-10-07 18:28:19</sys_updated_on>
         <user_criteria display_value="Training Students">ceaea5f7c35c3210e2b9921ed40131a2</user_criteria>
     </sc_cat_item_user_criteria_mtom>
 </record_update>

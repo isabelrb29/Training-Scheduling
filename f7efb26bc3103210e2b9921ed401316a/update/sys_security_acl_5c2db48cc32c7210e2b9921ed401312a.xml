@@ -4,11 +4,9 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <applies_to/>
-        <condition table="x_1131775_traini_0_enrollment">assigned_toDYNAMIC0f63961e5f510100a9ad2572f2b47745^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="0f63961e5f510100a9ad2572f2b47745"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </condition>
+        <condition/>
         <decision_type>allow</decision_type>
-        <description>Allow read for records in x_1131775_traini_0_enrollment, for users with role x_1131775_traini_0.training_instructor, and if the ACL condition (assigned_toDYNAMIC0f63961e5f510100a9ad2572f2b47745^EQ) evaluates to true.</description>
+        <description/>
         <local_or_existing>Local</local_or_existing>
         <name>x_1131775_traini_0_enrollment</name>
         <operation display_value="read">read</operation>
@@ -16,16 +14,16 @@
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-10-06 17:49:29</sys_created_on>
-        <sys_id>16313fe3c3143210e2b9921ed40131c6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2025-10-07 17:59:36</sys_created_on>
+        <sys_id>5c2db48cc32c7210e2b9921ed401312a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1131775_traini_0_enrollment</sys_name>
         <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
-        <sys_update_name>sys_security_acl_16313fe3c3143210e2b9921ed40131c6</sys_update_name>
+        <sys_update_name>sys_security_acl_5c2db48cc32c7210e2b9921ed401312a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-08 17:45:07</sys_updated_on>
+        <sys_updated_on>2025-10-07 17:59:36</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

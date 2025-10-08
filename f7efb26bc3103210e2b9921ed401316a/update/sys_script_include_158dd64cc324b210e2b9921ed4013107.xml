@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1131775_traini_0.EnrollmentValidation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>EnrollmentValidation</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var EnrollmentValidation = Class.create();
+EnrollmentValidation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	validateEnrollment: function() {
+		var user = gs.getUserID();
+		var scheduleId = this.getParameter('sysparm_schedule');
+
+		//obtendo agenda e informações do curso
+		var scheduleGR = new GlideRecord('x_1131775_traini_0_schedules');
+
+		if (!scheduleGR.get(scheduleId)){
+			return 'schedule_not_found';
+		}
+
+		var courseID = scheduleGR.course.toString();
+		var trainingDate = scheduleGR.training_date;
+		var maxSeats = scheduleGR.capacity;
+		var instructor = scheduleGR.instructor.toString();
+
+		//7. verifica se já existe matrícula do usuário nesta agenda
+		var enrollmentGR = new GlideRecord('x_1131775_traini_0_enrollment');
+		enrollmentGR.addQuery('opened_by', user);
+		enrollmentGR.addQuery('training_schedule', scheduleId);
+		enrollmentGR.query();
+
+		if (enrollmentGR.hasNext()) {
+			return 'already_enrolled';
+		}
+
+		//8. Verifica se o usuário já fez 3 matrículas no mesmo curso
+		var courseEnrollGR = new GlideRecord('x_1131775_traini_0_enrollment');
+		courseEnrollGR.addQuery('opened_by', user);
+		courseEnrollGR.addQuery('training_schedule.course', courseID);
+		courseEnrollGR.query();
+
+		var count = 0;
+		while(courseEnrollGR.next()) {
+			count++;
+		}
+
+		if (count >= 3) {
+			return 'limit_reached';
+		}
+
+		//9. Verifica lotação máxima
+		var seatsGR = new GlideRecord('x_1131775_traini_0_enrollment');
+		seatsGR.addQuery('training_schedule', scheduleId);
+		seatsGR.addQuery('state', 'IN', '2,3');
+		seatsGR.query();
+
+		var enrolledCount = 0;
+		while (seatsGR.next()) {
+			enrolledCount++;
+		}
+
+		if (enrolledCount >= maxSeats) {
+			return 'no_seats_available';
+		}
+
+		//10. Instrutor não pode se matricular no próprio curso
+		if (instructor === user) {
+			return 'instructor_cannot_enroll';
+		}
+
+		//11. Só pode se matricular até 1 dia antes do curso
+		var today = new GlideDateTime();
+		var training = new GlideDateTime(trainingDate);
+		var diff = GlideDate.subtract(today, training);
+		//metodo subtract retorna objeto do tipo data, por isso tem que pegar o valor numerico
+		var daysDiff = parseInt(diff.getNumericValue() / (1000 * 60 * 60 * 24));
+
+		if (daysDiff < 1) {
+			return 'too_late';
+		}
+
+		return 'ok';
+	},
+
+    type: 'EnrollmentValidation'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 01:11:32</sys_created_on>
+        <sys_id>158dd64cc324b210e2b9921ed4013107</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>EnrollmentValidation</sys_name>
+        <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
+        <sys_update_name>sys_script_include_158dd64cc324b210e2b9921ed4013107</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 18:18:01</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>158dd64cc324b210e2b9921ed4013107</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 01:11:32</sys_created_on>
+        <sys_id>5bff964cc324b210e2b9921ed4013145</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 01:11:32</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

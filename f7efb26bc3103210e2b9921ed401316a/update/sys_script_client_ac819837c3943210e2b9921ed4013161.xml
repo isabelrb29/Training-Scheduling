@@ -11,25 +11,37 @@
         <name>Validate Date</name>
         <order/>
         <script><![CDATA[function onSubmit() {
-   var course = g_form.getValue('course');
-   var date = g_form.getValue('training_date');
 
-   var gaSchedule = new GlideAjax("x_1131775_traini_0.ScheduleValidation");
-   gaSchedule.addParam('sysparm_name','checkDuplicate');
-   gaSchedule.addParam('sysparm_course',course);
-   gaSchedule.addParam('sysparm_date',date);
-   gaSchedule.addParam('sysparm_sys_id',g_form.getUniqueValue());
-   
-   var result = gaSchedule.getXMLWait();
-   var response = result.documentElement.getAttribute('answer');
+	//g_scratchpad armazena o status da validação. Isso impede que o return seja acionado antes do GlideAjax retornar com a informação
+	if(g_scratchpad.isFormValid){
+		return true;
+	}
 
-   if (response === 'true') {
-	alert('Já existe um treinamento deste curso nesta data');
-	//impedir o envio do formulário
-	return false; 
-   }
+	//pegando o botão de submit do formulário
+	var actionName = g_form.getActionName();
 
-   return true;
+    var course = g_form.getValue('course');
+    var date = g_form.getValue('training_date').split("/");
+    date = date[2] + "-" + date[1] + "-" + date[0];
+
+    var gaSchedule = new GlideAjax('ScheduleValidation');
+    gaSchedule.addParam('sysparm_name', 'checkDuplicate');
+    gaSchedule.addParam('sysparm_course', course.toString());
+    gaSchedule.addParam('sysparm_date', date.toString());
+
+    gaSchedule.getXMLAnswer(function(answer) {
+        if (answer === 'false') {
+			alert('There is already a training for this course on this date');
+			g_form.setValue("course", "");
+			g_form.setValue("training_date", "");
+			g_scratchpad.isFormValid = false;
+        } else {
+			g_form.clearMessages();
+			g_scratchpad.isFormValid = true;
+			g_form.submit(actionName);
+		}
+    });
+	return false;
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -37,7 +49,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ac819837c3943210e2b9921ed4013161</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name>Validate Date</sys_name>
         <sys_overrides/>
         <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
@@ -45,7 +57,7 @@
         <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
         <sys_update_name>sys_script_client_ac819837c3943210e2b9921ed4013161</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-06 20:45:16</sys_updated_on>
+        <sys_updated_on>2025-10-08 00:59:21</sys_updated_on>
         <table>x_1131775_traini_0_schedules</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>

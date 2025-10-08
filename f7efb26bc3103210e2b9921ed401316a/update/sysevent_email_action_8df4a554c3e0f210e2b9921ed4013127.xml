@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1131775_traini_0_enrollment</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>E-mail notification about an approved training enrollment request</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello ${opened_by},</p>
+<p>Your manager has <strong>APPROVED</strong> your participation in the training <strong>${training_schedule.course.name}</strong> scheduled for <strong>${training_date}</strong>.</p>
+<p>&nbsp;</p>
+<p><strong>Training details:</strong></p>
+<ul style="list-style-position: inside;">
+<li style="font-weight: bold;"><strong>Course: ${training_schedule.course.name}</strong></li>
+<li style="font-weight: bold;"><strong>Date: ${training_date}</strong></li>
+<li style="font-weight: bold;"><strong>Instructor: ${training_schedule.instructor}</strong></li>
+</ul>
+<p>&nbsp;</p>
+<p>We look forward to seeing you there!</p>
+<p>Best regards,<br>Training Management Team</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Enrollment Approved</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Training Enrollment Approved</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-08 15:36:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8df4a554c3e0f210e2b9921ed4013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enrollment Approved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
+        <sys_update_name>sysevent_email_action_8df4a554c3e0f210e2b9921ed4013127</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-08 15:36:19</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
