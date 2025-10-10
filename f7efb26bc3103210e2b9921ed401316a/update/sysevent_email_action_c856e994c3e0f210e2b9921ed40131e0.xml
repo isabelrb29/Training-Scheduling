@@ -36,6 +36,7 @@
         <message/>
         <message_html><![CDATA[<p>Hello ${opened_by},</p>
 <p>Your manager has <strong>REJECTED</strong> your enrollment for the training <strong>${training_schedule.course.name}</strong> scheduled for <strong>${training_date}</strong>.</p>
+<p>Reproval Reason: ${reproval_reason}</p>
 <p>&nbsp;</p>
 <p><strong>Training details:</strong></p>
 <ul style="list-style-position: inside;">
@@ -67,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c856e994c3e0f210e2b9921ed40131e0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Enrollment Rejected</sys_name>
         <sys_overrides/>
         <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
@@ -75,7 +76,7 @@
         <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
         <sys_update_name>sysevent_email_action_c856e994c3e0f210e2b9921ed40131e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-08 15:41:19</sys_updated_on>
+        <sys_updated_on>2025-10-09 19:45:11</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

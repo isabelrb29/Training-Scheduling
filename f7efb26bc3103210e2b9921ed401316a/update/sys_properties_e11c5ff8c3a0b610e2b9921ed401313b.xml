@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Api header content_type</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1131775_traini_0.Content_type</name>
+        <read_roles/>
+        <suffix>Content_type</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-10 13:30:29</sys_created_on>
+        <sys_id>e11c5ff8c3a0b610e2b9921ed401313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1131775_traini_0.Content_type</sys_name>
+        <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
+        <sys_update_name>sys_properties_e11c5ff8c3a0b610e2b9921ed401313b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-10 13:30:29</sys_updated_on>
+        <type>string</type>
+        <value>application/json</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=e11c5ff8c3a0b610e2b9921ed401313b"/>
+</record_update>

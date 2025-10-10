@@ -37,7 +37,7 @@
         <read_roles/>
         <reference display_value="" name="x_1131775_traini_0_schedules">x_1131775_traini_0_schedules</reference>
         <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
+        <reference_floats>true</reference_floats>
         <reference_key/>
         <reference_qual/>
         <reference_qual_condition/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
         <sys_update_name>sys_dictionary_x_1131775_traini_0_enrollment_training_schedule</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-06 18:01:15</sys_updated_on>
+        <sys_updated_on>2025-10-09 22:28:38</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
