@@ -11,14 +11,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-10-10 13:25:11</sys_created_on>
         <sys_id>c0fa53f8c3a0b610e2b9921ed401311b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_1131775_traini_0.endpoint</sys_name>
         <sys_package display_value="Training Scheduling" source="x_1131775_traini_0">f7efb26bc3103210e2b9921ed401316a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Scheduling">f7efb26bc3103210e2b9921ed401316a</sys_scope>
         <sys_update_name>sys_properties_c0fa53f8c3a0b610e2b9921ed401311b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-10-10 13:25:11</sys_updated_on>
+        <sys_updated_on>2025-10-10 18:30:41</sys_updated_on>
         <type>string</type>
         <value>https://openl-translate.p.rapidapi.com/translate/bulk</value>
         <write_roles/>
